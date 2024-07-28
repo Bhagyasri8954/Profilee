@@ -1,0 +1,27 @@
+nav{
+    position: fixed;
+    top:0;
+    right:0;
+    padding:20px;
+    background-color:black;
+    color:black;
+    z-index:1;
+}
+.nav-links{
+    list-style:none;
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links li{
+    margin-right: 20px;
+}
+.nav-links a{
+    text-decoration: none;
+    color:white;
+    transition: color 0.2s ease;
+}
+.nav-links a:hover{
+    color:black;
+}
